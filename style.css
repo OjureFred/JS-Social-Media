@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: azure;
+}
+.main {
+    display: flex;
+    gap: 50px;
+}
+#posts{
+    width: 400px;
+}
+#posts div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn{
+    width: 70px;
+    height: 30px;
+    background-color: steelblue;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+}
+#msg {
+    color: red;
+}
